@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+pipeline/terraform/.terraform
+.env
+!.env.sample
