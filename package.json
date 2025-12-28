@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy:aws": "./pipeline/deploy.sh prod"
   },
   "devDependencies": {
     "typescript": "~5.8.3",
